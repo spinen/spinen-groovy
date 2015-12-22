@@ -15,6 +15,6 @@ ark 'groovy' do
   checksum node['groovy']['checksum']
   home_dir node['groovy']['home']
   version node['groovy']['version']
-  # append_env_path true
+  append_env_path true
   action :install
 end
