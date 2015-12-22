@@ -15,11 +15,6 @@ ark 'groovy' do
   checksum node['groovy']['checksum']
   home_dir node['groovy']['home']
   version node['groovy']['version']
-  prefix_root node['groovy']['prefix_root']
-  #path node['path']
-  append_env_path true
-#  prefix_home node['prefix_home']
-#  prefix_bin node['prefix_bin']
-#  action :install_with_make
+  # append_env_path true
   action :install
 end
