@@ -1,0 +1,19 @@
+DEPENDENCIES
+  ark
+    git: https://github.com/burtlo/ark.git
+    revision: 615d375351fd9909e6c67f9beea0de42ae54ca50
+  spinen-groovy
+    path: .
+    metadata: true
+
+GRAPH
+  7-zip (1.0.2)
+    windows (>= 1.2.2)
+  ark (0.9.1)
+    build-essential (>= 0.0.0)
+  build-essential (2.2.4)
+  chef_handler (1.2.0)
+  spinen-groovy (0.1.0)
+    ark (>= 0.0.0)
+  windows (1.38.4)
+    chef_handler (>= 0.0.0)
